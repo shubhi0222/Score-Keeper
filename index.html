@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="app.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="sec">
+            <h1 class="head">
+                <span id="firstDisplay">0</span> to <span id="secondDisplay">0</span>
+            </h1>
+            <img src="badminton.avif" alt="" class="img" />
+            <div class="select-section">
+                <label for="play">Select the number of rounds: </label>
+                <select name="play" class="play" id="play">
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+            </div>
+            <div class="btn-section">
+                <button class="btn" id="firstIncrement">+1 for Player 1</button>
+                <button class="btn" id="reset">Reset</button>
+                <button class="btn" id="secondIncrement">+1 for Player 2</button>
+            </div>
+        </div>
+    </div>
+    <script src="co.js"></script>
+</body>
+
+</html>

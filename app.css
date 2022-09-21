@@ -1,0 +1,202 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* ---------Code for website---------- */
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
+
+.sec {
+    border: 2px solid black;
+    background-color: rgb(133, 209, 235);
+    height: 50%;
+    width: 80%;
+    margin: 20px;
+    padding: 20px 20px 0px 20px;
+}
+
+.head {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.img {
+    width: 95%;
+    height: 30%;
+}
+
+.select-section {
+    font-size: larger;
+    padding: 20px 0;
+}
+
+.btn-section {
+    font-size: larger;
+    display: flex;
+}
+
+.play {
+    border: 1px solid black;
+    font-size: medium;
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 3% 10%;
+}
+
+@media only screen and (min-width:600px) {
+    body {
+        background-image: url('court.avif');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-blend-mode: lighten;
+    }
+    .container {
+        transform: translate3d(30%, 5%, 0);
+        width: 76.5%;
+    }
+    .sec {
+        background-color: rgb(199, 234, 247);
+        width: 50%;
+    }
+}
