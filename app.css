@@ -194,7 +194,6 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position-y: center;
-        background-blend-mode: lighten;
     }
     .container {
         transform: translate3d(30%, 5%, 0);
@@ -203,5 +202,6 @@ body {
     .sec {
         background-color: rgb(199, 234, 247);
         width: 50%;
+        border: 2px solid black;
     }
 }
