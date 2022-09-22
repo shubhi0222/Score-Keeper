@@ -182,7 +182,6 @@ body {
 }
 
 .btn {
-    justify-content:evenly-spaced;
     border: 1px solid black;
     font-weight: bold;
     padding: 3% 10%;
