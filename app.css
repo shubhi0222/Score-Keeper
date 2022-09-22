@@ -182,6 +182,7 @@ body {
 }
 
 .btn {
+    align-content:evenly-spaced;
     border: 1px solid black;
     font-weight: bold;
     padding: 3% 10%;
