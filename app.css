@@ -142,9 +142,12 @@ table {
     color: red;
 }
 
-.sec {
-    border: 2px solid black;
+body {
     background-color: rgb(133, 209, 235);
+}
+
+.sec {
+    border: 2px;
     height: 50%;
     width: 80%;
     margin: 20px;
@@ -180,11 +183,13 @@ table {
 
 .btn {
     border: 1px solid black;
+    font-weight: bold;
     padding: 3% 10%;
 }
 
 @media only screen and (min-width:600px) {
     body {
+        background-color: transparent;
         background-image: url('court.avif');
         background-size: cover;
         background-repeat: no-repeat;
